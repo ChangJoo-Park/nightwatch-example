@@ -1,8 +1,3 @@
-// module.exports = (function(settings) {
-//   settings.test_workers = false;
-//   return settings;
-// })(require('./nightwatch.json'));
-
 const serverPath = require('selenium-server').path;
 const chromeDriverPath = require('chromedriver').path;
 
